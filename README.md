@@ -10,13 +10,13 @@
 ```
 pip install Flask requests-oauthlib
 ```
-- Altere o arquivo app.py, informando os dados de autentificacao
-  - app.secret_key
-  - client_id
-  - client_secret
 - Rode a aplicação
+  - Lembre-se de ajustar os parametros conforme suas informacoes
 ```
-python app.py
+python app.py \
+  --secret_key 'X' \
+  --client_id 'Y' \
+  --client_secret 'Z'
 ``` 
 - Acesse a url de Login
 ```
